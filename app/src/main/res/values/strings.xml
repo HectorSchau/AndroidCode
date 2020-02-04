@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Santiago++</string>
+    <string name="button_text">Recorrido de Colectivos Urbanos</string>
+    <string name="button_img">Android Chat</string>
+    <string name="msj">Ciudad de: Santiago del Estero</string>
+    <string name="button_icon_desc">Descripcion del Icono</string>
+    <string name="button2_text">Profesionales: Médicos, Abogados, Otros...</string>
+    <string name="button3_text">Remises y Taxis</string>
+    <string name="button5_text">Eventos: Que hacer hoy?</string>
+    <string name="button6_text">Comprar y Vender</string>
+    <string name="button7_text">Tiendas / Negocios</string>
+    <string name="button8_text">Teléfonos de Utilidad</string>
+    <string name="button9_text">Trabajo: Buscar y Ofrecer</string>
+    <string name="button10_text">CHAT</string>
 </resources>
