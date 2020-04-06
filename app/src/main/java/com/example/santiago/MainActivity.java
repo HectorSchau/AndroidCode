@@ -35,6 +35,11 @@ public class MainActivity extends AppCompatActivity {
     public void Telefonos(View view) {
         Toast.makeText(getApplicationContext(), "Teléfonos de Utilidad Pública", Toast.LENGTH_SHORT).show();
     }
+    public void Clasificados(View view) {
+        Intent intent = new Intent(this, Clasificados_Main.class);
+        startActivity(intent);
+        Toast.makeText(getApplicationContext(), "Avisos Clasificados", Toast.LENGTH_SHORT).show();
+    }
     public void Profesionales(View view) {
         Intent intent = new Intent(this, Profesionales_Main_Activity.class);
         startActivity(intent);

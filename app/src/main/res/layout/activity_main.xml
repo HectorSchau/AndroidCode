@@ -118,6 +118,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/custom_buttom_gra_cir"
+        android:onClick="Clasificados"
         android:text="@string/button6_text"
         android:textAllCaps="false"
         android:textColor="#ffffff"
