@@ -1,4 +1,9 @@
 <resources>
+    <string name="Welcome1">Bienvenidos al</string>
+    <string name="Welcome2">El mejor delivery de</string>
+    <string name="Welcome3">Santiago del Estero</string>
+    <string name="Welcome4">Estamos trabajando?</string>
+    <string name="b_log_in">Ingresa o regístrate</string>
     <string name="app_name">Santiago++</string>
     <string name="button_text">Recorrido de Colectivos Urbanos</string>
     <string name="button_img">Android Chat</string>
@@ -13,4 +18,25 @@
     <string name="button9_text">Trabajo: Buscar y Ofrecer</string>
     <string name="button10_text">CHAT</string>
     <string name="profesionales_text1">PROFESIONALES</string>
+    <string name="mc_auto">AUTOMOTORES</string>
+    <string name="mc_prop">Propiedades</string>
+    <string name="mc_cons">CONSTRUCCIONES</string>
+    <string name="mc_empl">EMPLEOS</string>
+    <string name="mc_serv">SERVICIOS</string>
+    <string name="mc_vari">VARIOS</string>
+    <string name="mc_edic">EDICTOS</string>
+    <string name="mc_todo">Ver Todos</string>
+    <string name="mc_p201">Propiedades Compras</string>
+    <string name="mc_p202">Casas   </string>
+    <string name="mc_p203">Departamentos   </string>
+    <string name="mc_p204">Locales Comerciales   </string>
+    <string name="mc_p205">Terrenos/Lotes    </string>
+    <string name="mc_p206">Campos/Fincas   </string>
+    <string name="mc_p207">Casas   </string>
+    <string name="mc_p208">Departamentos   </string>
+    <string name="mc_p209">Locales Comerciales   </string>
+    <string name="mc_p210">HOTELES Y HOSPEDAJES</string>
+    <string name="mc_p211">Casas   </string>
+    <string name="mc_p212">Departamentos   </string>
+    <string name="mc_p213">Locales Comerciales   </string>
 </resources>

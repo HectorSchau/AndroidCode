@@ -2,19 +2,45 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.santiago">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".GlobalClass"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Consultar_Av"></activity>
+        <activity android:name=".ING_01_Rubro"></activity>
+        <activity android:name=".Login_Activity" />
+        <activity android:name=".Entrada_Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Prop_AlqPed" />
+        <activity android:name=".Prop_menuAlq" />
+        <activity android:name=".Prop_menuVtas" />
+        <activity android:name=".Prop_menu2" />
+        <activity android:name=".p213" />
+        <activity android:name=".p212" />
+        <activity android:name=".p211" />
+        <activity android:name=".p210" />
+        <activity android:name=".p209" />
+        <activity android:name=".p208" />
+        <activity android:name=".p207" />
+        <activity android:name=".p206" />
+        <activity android:name=".p205" />
+        <activity android:name=".p204" />
+        <activity android:name=".p203" />
+        <activity android:name=".p202" />
+        <activity android:name=".p201" />
+        <activity android:name=".Prop_menu_cla" />
+        <activity android:name=".Prop_cla" />
+        <activity android:name=".Auto_cla" />
+        <activity android:name=".Consultas_Main" />
+        <activity android:name=".Consultar_Av" />
         <activity android:name=".Clasificados_Main" />
         <activity android:name=".Profesionales_Main_Activity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Hello_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="planets_array">
+    <item>AUTOMOTORES</item>
+    <item>PROPIEDADES</item>
+    <item>CONSTRUCCION</item>
+    <item>SERVICIOS</item>
+    <item>VARIOS</item>
+</string-array>
+</resources>

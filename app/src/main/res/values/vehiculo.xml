@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vehiculo">
+        <item>4x4</item>
+        <item>Camioneta</item>
+        <item>Utilitario</item>
+        <item>Auto</item>
+        <item>Camion</item>
+        <item>Colectivo</item>
+        <item>Moto</item>
+        <item>Cuatriciclo</item>
+        <item>Bicicleta</item>
+    </string-array>
+</resources>

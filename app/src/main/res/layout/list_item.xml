@@ -19,8 +19,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Heading"
-                android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"></TextView>
+                android:textAlignment="gravity"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="18sp"></TextView>
 
             <TextView
                 android:id="@+id/textViewDesc"

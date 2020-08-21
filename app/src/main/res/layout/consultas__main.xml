@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consultas_Main">
+
+    <Button
+        android:id="@+id/mc_prop"
+        android:layout_width="161dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/mc_prop"
+        android:onClick="Propiedades"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mc_vari"
+        android:layout_width="161dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/mc_vari"
+        android:onClick="Varios"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mc_empl" />
+
+    <Button
+        android:id="@+id/mc_auto"
+        android:layout_width="161dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/mc_auto"
+        android:onClick="Automotores"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mc_edic"
+        android:layout_width="161dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:onClick="Edictos"
+        android:text="@string/mc_edic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mc_serv" />
+
+    <Button
+        android:id="@+id/mc_todo"
+        android:layout_width="161dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="128dp"
+        android:onClick="Todos"
+        android:text="@string/mc_todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mc_edic" />
+
+    <Button
+        android:id="@+id/mc_serv"
+        android:layout_width="161dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/mc_serv"
+        android:onClick="Servicios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mc_cons" />
+
+    <Button
+        android:id="@+id/mc_cons"
+        android:layout_width="161dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/mc_cons"
+        android:onClick="Construcciones"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mc_auto" />
+
+    <Button
+        android:id="@+id/mc_empl"
+        android:layout_width="161dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/mc_empl"
+        android:onClick="Empleos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mc_prop" />
+</androidx.constraintlayout.widget.ConstraintLayout>
