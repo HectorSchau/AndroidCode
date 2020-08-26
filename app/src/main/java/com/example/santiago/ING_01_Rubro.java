@@ -33,7 +33,7 @@ public class ING_01_Rubro extends AppCompatActivity {
         mEdit.getText().toString();
     }
 
-    public void onRadioButtonClicked1(android.view.View)
+    public void onRadioButtonClicked1()
     {
 
     }

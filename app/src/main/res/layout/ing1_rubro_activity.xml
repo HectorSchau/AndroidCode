@@ -55,7 +55,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Descripción:"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                tools:visibility="invisible" />
 
             <EditText
                 android:id="@+id/editText2"
@@ -68,7 +69,7 @@
                 android:gravity="top|left"
                 android:hint="Descripción"
                 android:inputType="text"
-                >
+                tools:visibility="invisible">
 
                 <requestFocus />
             </EditText>
